@@ -1,0 +1,142 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        background-attachment: fixed;
+    }
+
+    .custom_nav-container {
+        justify-content: center;
+    }
+
+    .custom_nav-container .contact_nav {
+        display: none;
+    }
+
+    .slider_section .detail-box {
+        padding: 75px 0;
+    }
+
+    .custom_nav2 .navbar-nav {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .slider_section .detail-box {
+        text-align: center;
+    }
+
+    .slider_section .detail-box .btn-box {
+        justify-content: center;
+    }
+
+    .slider_section .detail-box {
+        padding-bottom: 120px;
+    }
+
+    .slider_section .carousel-indicators {
+
+        justify-content: center;
+        left: 0;
+        bottom: 55px;
+
+    }
+
+    .service_section .service_container .box {
+        flex-basis: 100%;
+        margin: 2% 0;
+    }
+
+    .custom_nav2 {
+        padding: 0;
+    }
+
+    .us_section .us_container {
+        flex-direction: column;
+    }
+
+    .client_section .box {
+        width: 100%;
+    }
+
+    .result_section .detail-box {
+        padding: 45px 0 90px 0;
+    }
+
+    .contact_section .heading_container {
+        margin-bottom: 0;
+    }
+
+    .contact_form-container {
+        margin-bottom: 30px;
+    }
+
+    .contact_section input {
+        width: 100%;
+    }
+
+    .info_section .row>div {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .info_section .info_link-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_section .info_social {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider_section .detail-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 400px) {
+    .slider_section .detail-box h2 {
+        font-size: 1.8rem;
+    }
+
+    .slider_section .detail-box h1 {
+        font-size: 2.5rem;
+    }
+
+    .info_section .info_form form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info_section .info_form form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+}
